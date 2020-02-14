@@ -1,4 +1,4 @@
-yakkun/dotfiles
+t-poyo/dotfiles
 ====
 
 ## Usage

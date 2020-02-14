@@ -1,7 +1,7 @@
 ## -*- mode: makefile-gmake; -*-
 
 .PHONY: all
-all: osx-config alacritty tmux git karabiner ssh vim zsh homebrew tfenv
+all: osx-config alacritty tmux git karabiner ssh vim zsh homebrew tfenv fish
 
 .PHONY: help
 help:
@@ -55,3 +55,7 @@ homebrew: ## Setup Homebrew configuration
 .PHONY: tfenv
 tfenv: ## Setup Terraform-env
 	tfenv install latest
+
+.PHONY: fish
+fish: ## Setup fish, theme, font
+	curl -L https://get.oh-my.fish | fish

@@ -66,6 +66,6 @@ fish: ## Setup fish, theme, font
 powerline:
 	git clone https://github.com/powerline/fonts.git
 	cd fonts
-	install.sh
+	./install.sh
 	cd ../
 	rm -rf fonts

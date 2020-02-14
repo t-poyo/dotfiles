@@ -57,7 +57,6 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf" # Search cur
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 defaults write com.apple.finder QLEnableTextSelection -bool true
 defaults write com.apple.finder ShowStatusBar -bool true
-defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 ### Safari
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true

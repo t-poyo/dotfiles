@@ -59,3 +59,4 @@ tfenv: ## Setup Terraform-env
 .PHONY: fish
 fish: ## Setup fish, theme, font
 	curl -L https://get.oh-my.fish | fish
+	chsh -s /usr/local/bin/fish

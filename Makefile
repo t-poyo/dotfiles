@@ -61,6 +61,9 @@ fish: ## Setup fish, theme, font
 	echo /usr/local/bin/fish | sudo tee -a /etc/shells
 	chsh -s /usr/local/bin/fish
 	curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+	
+.PHONY: powerline
+powerline:
 	git clone https://github.com/powerline/fonts.git
 	cd fonts
 	./install.sh

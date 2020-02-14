@@ -46,6 +46,8 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # defaults write com.apple.LaunchServices LSQuarantine -bool false
 defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
 
+defaults write com.apple.dock static-only -boolean true
+
 ### Disable functions
 defaults write com.apple.dashboard mcx-disabled -bool true # Dashboard
 # TODO- enable spotlight

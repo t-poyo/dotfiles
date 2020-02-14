@@ -1,7 +1,7 @@
 ## -*- mode: makefile-gmake; -*-
 
 .PHONY: all
-all: osx-config alacritty tmux git karabiner ssh vim zsh homebrew tfenv fish
+all: osx-config alacritty tmux git karabiner ssh vim zsh homebrew tfenv fish powerline
 
 .PHONY: help
 help:

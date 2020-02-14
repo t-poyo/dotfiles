@@ -102,6 +102,7 @@ cask "virtualbox"
 cask "visual-studio-code-insiders"
 cask "witch"
 cask "zoomus"
+cask "kensington-trackball-works"
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
@@ -110,4 +111,3 @@ mas "Skitch", id: 4259553363
 mas "Xcode", id: 497799835
 mas "Gifted", id: 771955779
 mas "Logic Pro X", id: 634148309
-mas "Slack", id: 803453959

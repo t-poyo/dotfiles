@@ -118,6 +118,14 @@
                         },
                         {
                             "from": {
+                                "key_code": "left_control"
+                            },
+                            "to": {
+                                "key_code": "fn"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "right_alt"
                             },
                             "to": {
@@ -126,10 +134,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_control"
+                                "key_code": "left_gui"
                             },
                             "to": {
-                                "key_code": "fn"
+                                "key_code": "left_option"
                             }
                         }
                     ]

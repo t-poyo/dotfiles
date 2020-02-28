@@ -6,7 +6,7 @@ t-poyo/dotfiles
 ### Setup everything
 
 ```console
-git clone git@github.com:yakkun/dotfiles.git
+git clone git@github.com:t-poyo/dotfiles.git
 cd dotfiles
 make
 ```

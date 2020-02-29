@@ -57,6 +57,7 @@ brew "maven"
 brew "mysql@5.7", restart_service: true, link: true
 brew "nmap"
 brew "node"
+brew "nodebrew"
 brew "peco"
 brew "pipenv"
 brew "pkg-config"
